@@ -1,5 +1,5 @@
 package say_hello 
 
-func SayHello() string {
-	return "Hello, Please dont kill me :'("
+func SayHello(name string) string {
+	return "Hello, Please dont kill me " + name + " :'("
 }
